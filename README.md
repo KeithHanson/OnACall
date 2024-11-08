@@ -7,6 +7,9 @@ Another device/program/etc should be listening on the UDP port 13337 to react to
 Once the Microcontroller code is built (soon), this will allow a simple screen to show you the last VIP messages, or easily show people around you irl that you are not talking to them, you are on a call.
 
 ## Installation
+`git clone https://github.com/KeithHanson/OnACall.git`
+
+`cd OnACall`
 
 `python -m venv venv`
 
