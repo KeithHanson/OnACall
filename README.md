@@ -38,6 +38,7 @@ Install docker.
 Edit your .env appropriately. 
 
 Then run:
+
 `docker build -t onacallbot .`
 
 `docker run onacallbot`
