@@ -30,3 +30,13 @@ Important message will now be sent out on a UDP broadcast packet.
 As a quick test, you can use netcat to view the packets:
 
 `nc -l -u -p 13337 -k`
+
+## Docker
+
+Install docker.
+
+Edit your .env appropriately. 
+
+Then run:
+`docker build -t onacallbot .`
+`docker run onacallbot`
